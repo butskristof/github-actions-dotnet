@@ -1,8 +1,9 @@
 name: Run every hour
 
 on:
-  schedule:
-    - cron: '35 * * * *'
+  # schedule:
+  #   - cron: '35 * * * *'
+  workflow_dispatch:
 
 jobs:
   cron:
